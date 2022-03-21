@@ -1,0 +1,23 @@
+{
+    "name": "hyper-tabby-theme",
+    "version": "1.0.0",
+    "description": "Tabby Theme for Hyper",
+    "main": "index.js",
+    "license": "MIT",
+    "repository": "https://github.com/C0DE-X/hyper-tabby-theme",
+    "author": {
+      "name": "Codex",
+      "email": "binary_codex@hotmail.com"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "hyper",
+      "hyper-theme",
+      "hyperterm",
+      "hyperterm-theme",
+      "tabby",
+      "hyper-tabby-theme"
+    ]
+  }
