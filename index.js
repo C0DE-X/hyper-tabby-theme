@@ -94,12 +94,12 @@ exports.decorateConfig = config => Object.assign({}, config, {
 			background-color: transparent;
 		}
 		.xterm-viewport::-webkit-scrollbar {
-			width: 4px;
-			height: 4px;
+			width: 6px;
+			height: 6px;
 		}
 		.xterm-viewport::-webkit-scrollbar-track,
 		.xterm-viewport::-webkit-scrollbar-thumb {
-			-webkit-border-radius: 8px;
+			-webkit-border-radius: 0px;
 		}
 		.xterm-viewport::-webkit-scrollbar-track {
 			background-color: #111D26;
