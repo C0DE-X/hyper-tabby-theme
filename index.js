@@ -1,3 +1,4 @@
+
 const foregroundColor = '#E3E5E6';
 const backgroundColor = '#1E2934';
 const red = '#FF0019';
@@ -82,6 +83,37 @@ exports.decorateConfig = config => Object.assign({}, config, {
 		.term_active .term_term {
 			opacity: 1;
 			transition: opacity 0.12s ease-in-out;
+		}
+		
+		.xterm-viewport::-webkit-scrollbar-button {
+			width: 0;
+			height: 0;
+			display: none;
+		}
+		.xterm-viewport::-webkit-scrollbar-corner {
+			background-color: transparent;
+		}
+		.xterm-viewport::-webkit-scrollbar {
+			width: 4px;
+			height: 4px;
+		}
+		.xterm-viewport::-webkit-scrollbar-track,
+		.xterm-viewport::-webkit-scrollbar-thumb {
+			-webkit-border-radius: 8px;
+		}
+		.xterm-viewport::-webkit-scrollbar-track {
+			background-color: #111D26;
+		}
+		.xterm-viewport::-webkit-scrollbar-thumb {
+			background-color: #545B62;
+			-webkit-box-shadow: none;
+		}
+		.xterm-viewport::-webkit-scrollbar-thumb:hover {
+			background-color: ${highlight};
+			-webkit-box-shadow: none;
+		}
+		.xterm .xterm-viewport {
+			overflow-y: auto;
 		}
 
 		/* Allow custom css / overrides */
